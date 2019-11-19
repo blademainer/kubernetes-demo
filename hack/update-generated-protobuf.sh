@@ -30,6 +30,6 @@ APIROOTS=${APIROOTS:-$(git grep --files-with-matches -e '// +k8s:protobuf-gen=pa
 	sort | uniq
 )}
 
-"${KUBE_ROOT}/build/run.sh" hack/update-generated-protobuf-dockerized.sh "${APIROOTS}" "$@"
+hack/update-generated-protobuf-dockerized.sh "${APIROOTS}" "$@"
 
 # ex: ts=2 sw=2 et filetype=sh

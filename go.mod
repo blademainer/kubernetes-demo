@@ -3,9 +3,14 @@ module github.com/blademainer/kubernetes-demo
 go 1.13
 
 require (
+	github.com/bazelbuild/bazel-gazelle v0.19.1 // indirect
+	github.com/bazelbuild/buildtools v0.0.0-20191118122812-e1746d65f6dd // indirect
+	github.com/cespare/prettybench v0.0.0-20150116022406-03b8cfe5406c // indirect
+	github.com/go-bindata/go-bindata v3.1.2+incompatible // indirect
 	github.com/gogo/protobuf v1.3.1
 	golang.org/x/tools v0.0.0-20191118222007-07fc4c7f2b98 // indirect
 	gonum.org/v1/gonum v0.6.0 // indirect
+	gotest.tools/gotestsum v0.4.0 // indirect
 	k8s.io/apimachinery v0.0.0-20191115015347-3c7067801da2
 	k8s.io/client-go v0.0.0-20190918160344-1fbdaa4c8d90
 	k8s.io/code-generator v0.0.0-20191114215150-2a85f169f05f

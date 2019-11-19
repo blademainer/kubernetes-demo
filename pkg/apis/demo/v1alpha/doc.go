@@ -15,11 +15,11 @@ limitations under the License.
 */
 
 //Package v1alpha contains API Schema definitions for the autoscaling v1alpha API group
-//+k8s:openapi-gen=true
-//+k8s:deepcopy-gen=package,register
-//+k8s:protobuf-gen=package
-//+k8s:conversion-gen=github.com/blademainer/kubernetes-demo/pkg/apis/demo/v1alpha
-//+k8s:defaulter-gen=TypeMeta
-//+groupName=demo.xiongyingqi.com
+// +k8s:openapi-gen=true
+// +k8s:deepcopy-gen=package,register
+// +k8s:protobuf-gen=package
+// +k8s:conversion-gen=github.com/blademainer/kubernetes-demo/pkg/apis/demo/v1alpha
+// +k8s:defaulter-gen=TypeMeta
+// +groupName=demo.xiongyingqi.com
 
 package v1alpha // import "github.com/blademainer/kubernetes-demo/pkg/apis/demo/v1alpha"
